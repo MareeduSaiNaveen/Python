@@ -11,7 +11,6 @@ git branch -M <main> OR <master>
 ssh-keygen -o
 cat ~/.ssh/id_ed25519.pub
 copy and past in github settings ssh
-git branch -M <main> OR <master>
 git remote -v
 git remote add origin <git@github.com:MareeduSaiNaveen/Python.git>
 git push -u origin <main> OR <master>
@@ -32,3 +31,6 @@ git branch graph
 git merge <branch name> (we will get files and changed code from mention branch to current branch)
 
 git pull origin <branch name>
+git tag (to knows)
+git tag -a <tag name> -m "1st release"
+git push origin <tag name>
