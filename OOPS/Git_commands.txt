@@ -1,0 +1,34 @@
+git inti
+rm -r .git
+git status
+git add <file name> OR <.>
+git commit -m <"Details of commit">
+git rm --cached <file name> OR <.>
+git diff
+
+git clone <address>
+git branch -M <main> OR <master>
+ssh-keygen -o
+cat ~/.ssh/id_ed25519.pub
+copy and past in github settings ssh
+git branch -M <main> OR <master>
+git remote -v
+git remote add origin <git@github.com:MareeduSaiNaveen/Python.git>
+git push -u origin <main> OR <master>
+
+git push origin <main> OR <master>
+git branch -m master main (to rename master to main)
+git clone <websit>
+
+#branch name can be main or master or it can be any
+
+git switch <branch name>
+git switch checkout -b <brach name>
+git branch (* is current branch)
+git branch --all
+git branch -d <branch name>
+git switch - (previous branch)
+git branch graph
+git merge <branch name> (we will get files and changed code from mention branch to current branch)
+
+git pull origin <branch name>
