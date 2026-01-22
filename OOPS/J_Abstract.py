@@ -8,7 +8,7 @@ class A(ABC):
 
 class PaymentGateway(ABC):
     @abstractmethod
-    def pe(self):
+    def pay(self):
         pass
 class paypal(PaymentGateway):
     def pay(self):
