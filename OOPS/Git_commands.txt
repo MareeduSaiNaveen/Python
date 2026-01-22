@@ -22,13 +22,15 @@ git clone <websit>
 #branch name can be main or master or it can be any
 
 git switch <branch name>
-git switch checkout -b <brach name>
+git switch -c <brach name>
+git checkout -b <brach name>
 git branch (* is current branch)
 git branch --all
 git branch -d <branch name>
 git switch - (previous branch)
 git branch graph
 git merge <branch name> (we will get files and changed code from mention branch to current branch)
+git checkout <commit id "7">
 
 git pull origin <branch name>
 git tag (to knows)
